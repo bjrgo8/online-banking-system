@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import { useLocation } from "react-router-dom";
-
+// customer account fund transfer
 const CustomerAccountFundTransfer = () => {
   const customer = JSON.parse(sessionStorage.getItem("active-customer"));
 
@@ -88,6 +88,7 @@ const CustomerAccountFundTransfer = () => {
       });
     e.preventDefault();
   };
+  
 
   return (
     <div>
